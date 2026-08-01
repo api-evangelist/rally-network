@@ -1,8 +1,15 @@
 aid: rally-network
 name: Rally Network
-description: Rally Network is a company surfaced as a portfolio company of battery-ventures, canaan-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Rally Network (RLY Protocol, stewarded by the RLY Network Association) is a permissionless,
+  open-source, multi-chain web3 mobile toolkit for developers. It provides natively embedded,
+  self-custodial wallets and gasless (gas station / ERC-2771 relayer) transactions so mobile
+  apps can let users create wallets, transfer tokens, claim NFTs, and deploy or call smart
+  contracts without handling gas or seed phrases. The toolkit ships as first-party SDKs for
+  React Native/Expo, Flutter, and Unity plus TypeScript libraries and a hosted dashboard for
+  API keys and configuration. Rally Network is the successor to the original rally.io social-token
+  platform (creator coins), which decentralized in 2021 and wound down its consumer sidechain in
+  early 2023; the RLY Network Association now maintains the open protocol and developer tooling.
 url: https://raw.githubusercontent.com/api-evangelist/rally-network/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +18,102 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.rallyprotocol.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- Web3
+- Blockchain
+- SDK
+- Mobile
+- Wallets
+- Gasless Transactions
+- Crypto
+- Developer Tools
+apis:
+- name: RLY Protocol Mobile Toolkit
+  description: >-
+    Open-source web3 mobile toolkit exposed as first-party SDKs (React Native/Expo, Flutter, Unity)
+    plus TypeScript libraries. Provides natively embedded self-custodial wallets and gasless
+    transactions via an ERC-2771 gas station relayer. No REST/OpenAPI surface is published; the
+    developer interface is the SDK layer and a hosted dashboard for API keys.
+  humanURL: https://docs.rallyprotocol.com
+  baseURL: https://www.rallyprotocol.com
+  tags:
+  - Web3
+  - Mobile
+  - SDK
+  - Wallets
+  - Gasless Transactions
+  properties:
+  - type: Documentation
+    url: https://docs.rallyprotocol.com
+  - type: SDKs
+    url: packages/rally-network-packages.yml
+  - type: Packages
+    url: packages/rally-network-packages.yml
+  - type: LLMsTxt
+    url: llms/rally-network-llms.txt
+  - type: GitHubOrganization
+    url: https://github.com/rally-dfs
+properties:
+- type: DeveloperPortal
+  url: https://docs.rallyprotocol.com
+- type: Documentation
+  url: https://docs.rallyprotocol.com
+- type: GettingStarted
+  url: https://docs.rallyprotocol.com/rallyprotocol/overview
+- type: Wiki
+  url: https://wiki.rly.network/rly-protocol
+- type: GitHubOrganization
+  url: https://github.com/rally-dfs
+- type: Blog
+  url: https://blog.rallyprotocol.com/
+- type: SignUp
+  url: https://app.rallyprotocol.com/
+- type: TermsOfService
+  url: https://rly.network/terms-of-use/
+- type: PrivacyPolicy
+  url: https://rly.network/privacy-policy/
+- type: SDKs
+  url: packages/rally-network-packages.yml
+- type: Packages
+  url: packages/rally-network-packages.yml
+- type: LLMsTxt
+  url: llms/rally-network-llms.txt
+- type: X
+  url: https://twitter.com/rallyprotocol
+- type: Discord
+  url: https://discord.gg/rlynetwork
+common:
+- type: DomainSecurity
+  url: security/rally-network-domain-security.yml
+- type: SDKs
+  url: packages/rally-network-packages.yml
+- type: Packages
+  url: packages/rally-network-packages.yml
+- type: LLMsTxt
+  url: llms/rally-network-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

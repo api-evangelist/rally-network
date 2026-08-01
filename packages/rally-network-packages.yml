@@ -1,0 +1,58 @@
+generated: '2026-07-20'
+method: searched
+source:
+- https://www.npmjs.com/package/@rly-network/mobile-sdk
+- https://pub.dev/packages/rly_network_flutter_sdk
+- https://github.com/rally-dfs
+type: Packages
+provider: rally-network
+name: Rally Network (RLY Protocol) SDKs & Client Libraries
+description: >-
+  First-party open-source SDKs and libraries for the RLY Protocol web3 mobile toolkit
+  (embedded wallets + gasless transactions). Published to npm and pub.dev; source in the
+  rally-dfs GitHub organization. There is no REST/OpenAPI surface — these SDKs are the
+  primary developer interface.
+packages:
+- registry: npm
+  name: "@rly-network/mobile-sdk"
+  language: JavaScript/TypeScript
+  ecosystem: React Native / Expo (iOS, Android)
+  official: true
+  version: 1.7.1
+  license: MIT
+  url: https://www.npmjs.com/package/@rly-network/mobile-sdk
+  repository: https://github.com/rally-dfs/rly-network-mobile-sdk
+- registry: pub.dev
+  name: rly_network_flutter_sdk
+  language: Dart
+  ecosystem: Flutter
+  official: true
+  version: 0.7.1
+  url: https://pub.dev/packages/rly_network_flutter_sdk
+  repository: https://github.com/rally-dfs/flutter-sdk
+- registry: github
+  name: unity-sdk
+  language: C#
+  ecosystem: Unity
+  official: true
+  url: https://github.com/rally-dfs/unity-sdk
+  repository: https://github.com/rally-dfs/unity-sdk
+- registry: github
+  name: rly-ts
+  language: TypeScript
+  ecosystem: Node.js / TypeScript libraries (RLY Network Association)
+  official: true
+  url: https://github.com/rally-dfs/rly-ts
+  repository: https://github.com/rally-dfs/rly-ts
+- registry: github
+  name: gsn-relay
+  language: TypeScript
+  ecosystem: Ethereum Gas Station Network (RLY fork) relayer
+  official: true
+  url: https://github.com/rally-dfs/gsn-relay
+  repository: https://github.com/rally-dfs/gsn-relay
+notes: >-
+  Unity SDK is distributed from the rally-dfs GitHub organization (no OpenUPM/registry package
+  resolved at probe time). rly-ts is the association's TypeScript library set. Additional
+  example/demo repos (mobile-sdk-rn-demo, flutter-example-app, unity-example) exist but are not
+  installable client libraries.
